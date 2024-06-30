@@ -4,8 +4,8 @@ import Index from "./pages/Index.jsx";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Toaster } from "@/components/ui/sonner.jsx";
 
-// Use navbar layout for public facing website
-import SharedLayout from "./components/layouts/navbar.jsx";
+// Use sidebar layout for public facing website
+    import SharedLayout from "./components/layouts/sidebar.jsx";
 
 const queryClient = new QueryClient();
 
